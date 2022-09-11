@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+  }
+  
+html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: green
+  }
+body{
+    background-color: rgb(248, 248, 248);
+}
+.subheader{
+    padding: 1rem 7%;
+    display: flex;
+    font-family: "Segoe UI";
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+/* inov */
+.subheader .icons div {
+ 
+    color: green;
+    cursor: pointer;
+    font-size: 2rem;
+    
+  }
+
+  .header #menu-btn {
+    display: none;
+    color: green;
+
+  }
+  .contact-info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35rem;
+    background: white;
+    height: 100%;
+    text-align: center;
+    z-index: 1100;
+    padding: 0 2rem;
+    padding-top: 4rem;
+    display: none;
+  }
+  
+  .contact-info.active {
+    -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+            box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.7);
+    display: block;
+  }
+  
+  .contact-info #close-contact-info {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    font-size: 4rem;
+    color: black
+  }
+  
+  .contact-info #close-contact-info:hover {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  
+  .contact-info .info {
+    padding: 1rem 0;
+  }
+  
+  .contact-info .info i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: rgb(207, 207, 207);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: .5rem;
+  }
+  
+  .contact-info .info i:hover {
+    background: black;
+    color: white;
+  }
+  
+  .contact-info .info h3 {
+    font-size: 2rem;
+    color: black;
+    text-transform: capitalize;
+    padding: 1rem 0;
+  }
+  
+  .contact-info .info p {
+    font-size: 1.5rem;
+    color: rgb(185, 185, 185);
+    line-height: 2;
+  }
+  
+  .contact-info .share {
+    padding-top: 1rem;
+    border-top: grey;
+    margin-top: 1rem;
+  }
+  
+  .contact-info .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    background: rgb(207, 207, 207);
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 .3rem;
+  }
+  
+  .contact-info .share a:hover {
+    background: black;
+    color: white;
+  }
+
+
+header{
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+b{
+    font-family: "Segoe UI";
+}
+.icons a{
+    color: rgb(40, 184, 40);
+    font-size: 30px;
+    
+}
+.header{
+    padding: 1rem 6%;
+    background: rgb(197, 197, 197);
+    display: flex;
+}
+.header .navlink{
+    padding-left: 25rem;
+    padding-top: 0.8rem;
+}
+.header .navlink a{
+    color: rgb(40, 184, 40);
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: Calibri;
+    font-size: 2rem;
+    text-align: left;
+   
+    padding-left: 2rem;
+}
+.header .icons div {
+   position: relative;
+   padding-left: 5rem;
+     font-size: 2rem;
+    color: green;
+    cursor: pointer;
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+.header .title{
+    color: rgb(40, 184, 40);
+    font-family: Calibri;
+    font-size: 2.5rem;
+    
+}
+
+.home{
+    min-height: 63rem;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background-size: cover !important;
+    background-position: cover !important;
+}
+.home .content{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Segoe UI;
+}
+section.about{
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.ab_first{
+    display: flex;
+    padding: 10rem 10%;
+    font-size: 20px;
+    margin: 1rem;
+}
+.ab_first p{
+    padding-top: 2rem;
+    word-spacing: 2px;
+    color: rgb(163, 163, 163);
+    
+}
+.ab_first div{
+    margin: 2rem;
+}
+.ab_second{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem 12%;
+    
+}
+.ab_second h1{
+    position: relative;
+    display: inline-block;
+    border-bottom: grey;
+}
+.ab_second h1::after{
+    content:'';
+    height: 4px;
+    width: 40%;
+    background: rgb(175, 175, 175);
+    position: absolute;
+    text-align: center;
+    left: calc(40% - 10%);
+    bottom: 0;
+}
+
+.ab_second p{
+    font-size: 25px;
+    padding: 00.5rem 10%;
+    color: rgb(163, 163, 163);
+}
+.images {
+    background: rgb(95, 95, 95);
+    padding: 5rem;
+  }
+  
+  .images .heading {
+    color: white;
+  }
+  
+  .images .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .images .box-container .box {
+    cursor: initial;
+  }
+  
+  .images .box-container .box:hover .image img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
+  .images .box-container .box .image {
+    height: 40rem;
+    overflow: hidden;
+  }
+  
+  .images .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .images .box-container .box .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: white;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .images .box-container .box .content .info {
+    padding: 1rem 2rem;
+  }
+  
+  .images .box-container .box .content .info h3 {
+    font-size: 1.7rem;
+    color: black;
+    text-transform: capitalize;
+  }
+  
+  .images .box-container .box .content .info p {
+    font-size: 1.5rem;
+    color: rgb(148, 148, 148);
+    line-height: 2;
+  }
+  
+  .images .box-container .box .content i {
+    width: 7.5rem;
+    font-size: 3rem;
+    background: green;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 7.5rem;
+  }
+  .services {
+    background: rgb(231, 231, 231);
+    padding:6rem;
+  }
+  
+  .services .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .services .box-container .box {
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    -webkit-box-shadow: rgb(187, 187, 187);
+            box-shadow: rgb(187, 187, 187);
+    border: grey;
+  }
+  
+  .services .box-container .box:hover img {
+    -webkit-transform: translateY(-1rem);
+            transform: translateY(-1rem);
+  }
+  
+  .services .box-container .box img {
+    height: 7rem;
+    margin-bottom: .5rem;
+  }
+  
+  .services .box-container .box h3 {
+    font-size: 1.7rem;
+    color: var(--black);
+    text-transform: capitalize;
+    padding: 1rem 0;
+  }
+  
+  .services .box-container .box p {
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 2;
+  }
+.contact {
+    background: rgb(114, 114, 114);
+    padding: 5rem;
+  }
+  .heading {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    color: black;
+    text-transform: capitalize;
+    padding-left: 1rem;
+  }
+  
+  .contact .heading {
+    color: white;
+  }
+  
+  .contact .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .contact .row .map {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 41rem;
+            flex: 1 1 41rem;
+    width: 100%;
+  }
+  
+  .contact .row form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 41rem;
+            flex: 1 1 41rem;
+    background: white;
+    padding: 2rem;
+  }
+  
+  .contact .row form h3 {
+    font-size: 2.5rem;
+    color: black;
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+  }
+  
+  .contact .row form .box{
+    margin: .7rem 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    border-bottom:1px solid rgb(114, 114, 114);
+    font-size: 1.6rem;
+    color: rgb(114, 113, 113);
+  }
+  
+  .contact .row form .box:focus {
+    border-color: green;
+  }
+  
+  .contact .row form textarea {
+    height: 15rem;
+    resize: none;
+  }
+  .contact .row form .btn{
+    background: green;
+    text-transform: uppercase;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 3rem;
+  }
+  .contact .row form .btn:hover{
+    background: rgb(119, 143, 165);
+  }
+.footer{
+    background: rgb(36, 36, 36);
+    padding: 3rem;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.footer span{
+    color: rgb(40, 184, 40);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media(max-width:1200px){
+    .subheader{
+        padding: 1.5rem 2rem;
+        
+        
+    }
+    
+    
+}
+@media(max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    section {
+        padding: 3rem 2rem;
+      }
+    .header .title{
+        font-size: 1.5rem;
+    }
+    .header #menu-btn{
+        display: inline-block;
+    }
+    .ab_first{
+      display: grid;
+    }
+    .header .navlink{
+
+        position: absolute;
+         top:15%;left:-25rem;right: 0;
+         background: white;
+         border-top: grey;
+         border-bottom: grey;
+         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navlink.active {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+    .header .navlink a{
+        display: block;
+        margin: 2rem;
+    }
+}
+.home .content h1{
+  
+  font-size: 4.5rem;
+
+}
+.home .content h3{
+  font-size: 4rem;
+}
+.footer p{
+  font-size: 1.5rem;
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
